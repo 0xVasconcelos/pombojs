@@ -21,6 +21,9 @@ api.on('message', function(message){
             else if(text.indexOf("pru") > -1){
                 sendMessages("Pruu! Pruu!", chat_id);
             }
+            else if(text.indexOf("dimi") > -1 && text.indexOf("marco") > -1){
+                sendMessages("Ei mano! ...", chat_id);
+            }
             else if(text.indexOf("burro") > -1){
                 sendMessages("Égua mano, não sou burro não mano, tirei bom em Cálculo mano!", chat_id);
             }
