@@ -51,10 +51,6 @@ api.on('message', function(message){
         else if(text.indexOf("andre") > -1 && text.indexOf("pai") > -1){
                 sendMessages("Égua mano, o André vai ser pai! Parabéns mano!", chat_id);
         }
-
-        else if(text.indexOf("dimi") > -1 && text.indexOf("marco") > -1){
-                sendMessages("Égua mano, não acredito que o Marco come o Dimi!!", chat_id);
-        }
     }
    if(message.text) 
        console.log("[" + message.from.first_name + " " + message.from.last_name + "@" + message.from.username + "]: " + message.text);
